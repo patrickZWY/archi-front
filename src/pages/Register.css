@@ -1,9 +1,138 @@
 
-.container {
-    width: 20px;
-    height: 25px;
+.register-container  {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 90px;
+    background: #fff;
+    padding-top: 100px;
+    padding-bottom: 40px;
+    /*use padding and small margin top to place content in middle*/
+    /* width: 350px;
+    margin: 3rem auto;
+    padding: 2rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #fff; */
 }
-.container .inputs .input img {
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 9px;
     width: 100%;
-    height: auto;
+    margin-top: 30px;
+}
+
+.register-container .header .text {
+    /* font-size: large;
+    font-weight: bold;
+    margin-bottom: 1rem; */
+    color: #3c009d;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.underline {
+    width: 61px;
+    height: 6px;
+    background: #3c009d;
+    border-radius: 9px;
+}
+
+/* .inputs .input {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    margin-bottom: 1rem;
+} */
+
+.inputs {
+    margin-top: 55px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.input {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 480px;
+    height: 80px;
+    background: #eaeaea;
+    border-radius: 6px;
+
+}
+
+.inputs .input img {
+    width: 20px;
+    height: 20px;
+    margin: 0px 30px;
+}
+
+.inputs .input input {
+    height: 50px;
+    width: 400px;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #797979;
+    font-size: 19px;
+
+    /* flex: 1;
+    padding: 0.5rem;
+    font-size: 1rem; */
+}
+
+.forgot-password {
+    padding-left: 62px;
+    margin-top: 27px;
+    color: #797979;
+    font-size: 18px;
+}
+
+.forgot-password span {
+    color: #4c00b4;
+    cursor: pointer;
+}
+
+.submit-container {
+    display: flex;
+    /* gap: 1rem; */
+    gap: 30px;
+    margin: 60px auto;
+}
+
+.submit-container .submit {
+    /* flex: 1;
+    text-align: center;
+    padding: 0.75rem 0;
+    background: #33855c;
+    color: #fff; */
+    /* make the four corners of a box square */
+    /* border-radius: 100px;
+    cursor: pointer; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 220px;
+    height: 59px;
+    color: #fff;
+    background: #4c00b4;
+    border-radius: 50px;
+    font-size: 19px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.submit-container .submit:hover {
+    background: #286c4b;
+}
+
+.gray {
+    background: #EAEAEA;
+    color: #676767;
 }

@@ -11,7 +11,6 @@ export default function Navbar() {
             <ul>
                 <CustomLink to="/about">About</CustomLink>
                 <CustomLink to="/register">Register</CustomLink>
-                <CustomLink to="/login">Login</CustomLink>
                 <CustomLink to="/profile">Profile</CustomLink>
             </ul>
         </nav>

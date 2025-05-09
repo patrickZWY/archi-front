@@ -4,6 +4,9 @@
 
 body {
     margin: 0;
+    /*this prevents having multiple background colors*/
+    height: 100vh;
+    background: linear-gradient(#2A00B7, #42006C);
 }
 
 .container {
